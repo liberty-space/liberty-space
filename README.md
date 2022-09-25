@@ -17,7 +17,7 @@
 - 目前Akamai分两个版本2.0和1.75，目前只支持1.75
 
 
-#### 💡联系客服<liberty-space@protonmail.com>注册即送1000点数，加微信好友再送5000点数
+#### 💡联系客服 <vx:King_Zq__、qq:240942649、email:liberty-space@protonmail.com> 注册即送1000点数，加微信好友再送5000点数
 
 
 ### API
@@ -77,7 +77,7 @@ POST `http://api.liberty.com/tls/v1/parsing`
 |params|String|是|参数, 没有传空对象, eg. {}|
 |data|String|是|请求数据, 没有传空对象, eg. {}|
 |headers|String|是|请求头信息, 没有传空对象, eg. {}|
-|proxies|String|是|代理|
+|proxies|String|否|不存在代理走系统默认代理,存在:密码eg. http://user@pwd:xxx.xxx.xx:9000、不存在密码eg. http://xxx.xxx.xxx.xxx:xxx|
 
 > 请求实例
 ```
@@ -128,7 +128,7 @@ POST `http://api.liberty.com/tls/v1/parsing`
     - 邀请好友注册并充值。马上获得10000点数，同时获得该好友第一个月60%、第二个月40%、第三个月20%、第四个月以后永久10%的充值点数
     - 充值获取。1元=1000点（暂时不支持线上充值，可先通过转账方式充值，敬请谅解）；
 2. **点数消耗**
-    > 调用接口并成功返回即消耗点数，akamai接口不保证100%可通过，各个网站通过率略有差异，如果通过率低可联系客服<liberty-space@protonmail.com>。
+    > 调用接口并成功返回即消耗点数，akamai接口不保证100%可通过，各个网站通过率略有差异，如果通过率低可联系客服。<vx:King_Zq__、qq:240942649、email:liberty-space@protonmail.com>
 
     
     |接口|消耗点数|扣除方式|
