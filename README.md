@@ -24,7 +24,7 @@
 #### sensor_data1.75
 
 
-POST `http://api.liberty.com/akamai/v1/sensorData`
+POST `http://api.liberty.com/akm/v1/sensorData`
 
 `Content-Type` application/json
 
