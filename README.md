@@ -48,7 +48,7 @@ POST `http://api.liberty.com/akamai/v1/sensorData`
 
 |属性|类型|必须|说明|
 |----|----|----|----|
-|code|String|是|20000：成功<br/>50001：appKey认证失败<br/>51001：可用点数不足<br/><br/>40004：参数缺失|
+|code|String|是|20000：成功<br/>40004：参数缺失<br/>50001：appKey认证失败<br/>51001：可用点数不足|
 |errMsg|String|否|异常说明|
 |data|String|是|结果|
 
@@ -92,6 +92,14 @@ POST `http://api.liberty.com/tls/v1/parsing`
 }
 ```
 > 响应参数
+
+|属性|类型|必须|说明|
+|----|----|----|----|
+|code|String|是|20000：成功<br/>40004：参数缺失<br/>50001：appKey认证失败<br/>51001：可用点数不足|
+|errMsg|String|否|异常说明|
+|data|String|是|结果|
+
+> 响应示例
 ```
 {
     "code":20000,
